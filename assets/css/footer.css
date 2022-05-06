@@ -1,0 +1,70 @@
+.footer{
+	padding: 60px 0;
+    width: 100%;
+    background: #333333;
+    color: rgb(164, 164, 164);
+    margin-top: 150px;
+   
+   
+}
+
+.footer-title{
+	position: relative;
+    color: rgb(164, 164, 164);
+	font-size: 24px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #4e4e4e;
+}
+.footer-title:after{
+	position: absolute;
+	content: '';
+	left: 0;
+	bottom: 0;
+	width: 30px;
+	height: 4px;
+	background: #ff9900;
+}
+.footer-links a{
+	padding: 10px 0;
+	border-bottom: 1px solid #404040;
+	color: rgb(164, 164, 164);
+	display: block;
+	transition: color 0.5s ease-in-out;
+   text-decoration:none;
+}
+.footer-links a:hover{
+	color: #ff304d;
+}
+.footer-social-links li{
+	display: inline-block;
+}
+.footer-social-links a{
+	width: 40px;
+	height: 40px;
+	font-size: 16px;
+	float: left;
+	margin-right: 10px;
+	padding: 10px;
+	border: 1px solid #404040;
+	border-radius: 50px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	line-height: 1;
+	-webkit-transition: background 0.3s ease-in-out;
+	-moz-transition: background 0.3s ease-in-out;
+	transition: background 0.3s ease-in-out;
+  background:#ff9900;
+}
+.footer-social-links a:hover{
+	background: #ffe600;
+}
+/* g. Footer bottom section */
+.footer-bottom{
+	width: 100%;
+	padding: 25px 0;
+	text-align: center;
+	color: rgb(164, 164, 164);
+	background: #333333;
+}
